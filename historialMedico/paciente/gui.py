@@ -170,6 +170,7 @@ class Frame(tk.Frame):
         self.topCalendario = Toplevel()
         self.topCalendario.title("FECHA NACIMIENTO")
         self.topCalendario.resizable(0,0)
+        self.topCalendario.iconbitmap('C:/Users/cracb/OneDrive/Escritorio/MediTrack/historialMedico/img/clinica.ico')
         self.topCalendario.config(bg='#CDD8FF')
 
         self.svCalendario = StringVar(value= '01-01-1990')
@@ -354,6 +355,7 @@ class Frame(tk.Frame):
             self.topHistorialMedico = Toplevel()
             self.topHistorialMedico.title('HISTORIAL MEDICO')
             self.topHistorialMedico.resizable(0,0)
+            self.topHistorialMedico.iconbitmap('C:/Users/cracb/OneDrive/Escritorio/MediTrack/historialMedico/img/clinica.ico')
             self.topHistorialMedico.config(bg='#CDD8FF')
 
             self.listaHistoria = listarHistoria(idPersona)
@@ -410,6 +412,7 @@ class Frame(tk.Frame):
         self.topAHistoria = Toplevel()
         self.topAHistoria.title('AGREGAR HISTORIAL')
         self.topAHistoria.resizable(0,0)
+        self.topAHistoria.iconbitmap('C:/Users/cracb/OneDrive/Escritorio/MediTrack/historialMedico/img/clinica.ico')
         self.topAHistoria.config(bg='#CDD8FF')
         #FRAME 1
         self.frameDatosHistoria = tk.LabelFrame(self.topAHistoria)
@@ -512,6 +515,7 @@ class Frame(tk.Frame):
             self.topEditarHistoria = Toplevel()
             self.topEditarHistoria.title('EDITAR HISTORIA MEDICA')
             self.topEditarHistoria.resizable(0,0)
+            self.topEditarHistoria.iconbitmap('C:/Users/cracb/OneDrive/Escritorio/MediTrack/historialMedico/img/clinica.ico')
             self.topEditarHistoria.config(bg='#CDD8FF')
 
             #FRAME EDITAR DATOS HISTORIA
